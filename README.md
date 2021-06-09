@@ -63,3 +63,21 @@ python manage.py makemigrations HudumaApp
  python manage.py migrate 
 ```
 ##### Run the application  
+```bash 
+ python manage.py runserver 
+``` 
+##### Testing the application  
+ ```bash 
+ python manage.py test 
+```
+Open the application on your browser `127.0.0.1:8000`.  
+
+## Technology used  
+  
+* [Python3.8](https://www.python.org/)  
+* [Django 3.2.4](https://docs.djangoproject.com/en/3.2/)  
+* [Heroku](https://heroku.com)  
+  
+    
+## Known Bugs  
+* There are no known bugs currently but pull requests are allowed incase you spot a bug  
