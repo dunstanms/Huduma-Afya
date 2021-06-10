@@ -8,7 +8,7 @@ class ProfileTestClass(TestCase):
 
     def setUp(self):
         
-        self.new_profile = Profile(user_id=2,bio=" testing", email='dan@mail.com',name="admin",profile_pic="default.jpeg")
+        self.new_profile = Profile(user_id=2,bio=" testing", email='dan@mail.com',name="admin")
 
   
     # Testing  instance
