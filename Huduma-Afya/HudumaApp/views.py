@@ -2,6 +2,7 @@ from django.shortcuts import render,redirect
 from django.contrib.auth.models import User,Group
 from .models import *
 from django.contrib.auth import authenticate,logout,login
+from django.contrib.auth.decorators import login_required
 from django.utils import timezone
 
 # Create your views here.
@@ -29,6 +30,7 @@ def Login_admin(request):
 	d = {'error' : error}
 	return render(request,'adminlogin.html',d)
 
+@login_required(login_url='login')
 def loginpage(request):
 	error = ""
 	page = ""
@@ -60,6 +62,7 @@ def loginpage(request):
 			#print(e)
 			#raise e
 	return render(request,'login.html')
+	return redirect('Home')
 
 def createaccountpage(request):
 	error = ""
@@ -90,10 +93,9 @@ def createaccountpage(request):
 			error = "yes"
 			#print("Error:",e)
 	d = {'error' : error}
-	#print(error)
-	return render(request,'createaccount.html',d)
-	#return render(request,'createaccount.html')
 
+	return render(request,'createaccount.html',d)
+	
 def adminaddDoctor(request):
 	error = ""
 	user="none"
