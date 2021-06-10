@@ -80,6 +80,16 @@ WSGI_APPLICATION = 'Huduma.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+if config('MODE')=="dev":
+    DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR , 'db.sqlite3'),
+    }
+}
+    
+# production
+else:
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
