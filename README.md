@@ -8,9 +8,11 @@ A web application for outpatient medical services for hospitals online .
 
 Topics
 Resources
+## Presentation slides
+[Presentation slides](https://docs.google.com/presentation/d/1khnG0TcjMkrqP_XgCuoQCwJCGj3wo_V5IgBv58K6oyE/edit#slide=id.g72d05592bf_2_111)
 
 ##  Live Link  
- Click [View Site]()  to visit the site
+ Click [View Site](https://huduma-afya.herokuapp.com/)  to visit the site
 
 
 ## User Story  
@@ -23,23 +25,26 @@ Resources
 * Find Contact Information for the health department
 * Choose type of doctor for my appointments
 
-## Home-page
-<img src="">
+## Admin-Home-page
+<img src="https://raw.githubusercontent.com/ubuntustan/Huduma-Afya/master/Huduma-Afya/HudumaApp/static/img/admindashboard.png">
 
-## Profile 
-<img src="">
+## Receptionists
+<img src="https://raw.githubusercontent.com/ubuntustan/Huduma-Afya/master/Huduma-Afya/HudumaApp/static/img/reception.png">
+
+## Doctor page
+<img src="https://raw.githubusercontent.com/ubuntustan/Huduma-Afya/master/Huduma-Afya/HudumaApp/static/img/doctor.png">
 
 ## ERD Diagram
-<img src=""> 
-
+[Erd](https://lucid.app/lucidchart/111c56d8-7535-4c8e-a6c7-ca7d229f1264/edit?page=0_0#)
 ## Figma design
+
 
 ## Setup and Installation  
 To get the project .......  
   
 ##### Cloning the repository:  
  ```bash 
-https://github.com/ubuntustan/Huduma-Afya.gi
+https://github.com/ubuntustan/Huduma-Afya.git
 ```
 ##### Navigate into the folder and install requirements  
  ```bash 
@@ -63,7 +68,7 @@ python manage.py makemigrations HudumaApp
  python manage.py migrate 
 ```
 ##### Run the application  
-```bash 
+ ```bash 
  python manage.py runserver 
 ``` 
 ##### Testing the application  
@@ -89,3 +94,4 @@ If you have any question or contributions, please email me at [dunmmbehero@gmail
 * Copyright (c) 2021 **Dunstan Mmbehero**
   
   
+ 
