@@ -12,7 +12,7 @@ Resources
 [Presentation slides](https://docs.google.com/presentation/d/1khnG0TcjMkrqP_XgCuoQCwJCGj3wo_V5IgBv58K6oyE/edit#slide=id.g72d05592bf_2_111)
 
 ##  Live Link  
- Click [View Site]()  to visit the site
+ Click [View Site](https://huduma-afya.herokuapp.com/)  to visit the site
 
 
 ## User Story  
@@ -35,8 +35,7 @@ Resources
 <img src="https://raw.githubusercontent.com/ubuntustan/Huduma-Afya/master/Huduma-Afya/HudumaApp/static/img/doctor.png">
 
 ## ERD Diagram
-<img src=""> 
-
+[Erd](https://lucid.app/lucidchart/111c56d8-7535-4c8e-a6c7-ca7d229f1264/edit?page=0_0#)
 ## Figma design
 
 
