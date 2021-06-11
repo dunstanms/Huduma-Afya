@@ -8,6 +8,8 @@ A web application for outpatient medical services for hospitals online .
 
 Topics
 Resources
+## Presentation slides
+[Presentation slides](https://docs.google.com/presentation/d/1khnG0TcjMkrqP_XgCuoQCwJCGj3wo_V5IgBv58K6oyE/edit#slide=id.g72d05592bf_2_111)
 
 ##  Live Link  
  Click [View Site]()  to visit the site

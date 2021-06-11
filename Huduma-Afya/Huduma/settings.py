@@ -90,7 +90,7 @@ if config('MODE')=="dev":
     
 # production
 else:
-DATABASES = {
+    DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',

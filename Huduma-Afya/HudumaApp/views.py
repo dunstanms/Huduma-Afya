@@ -62,7 +62,7 @@ def loginpage(request):
 			#print(e)
 			#raise e
 	return render(request,'login.html')
-	return redirect('Home')
+	return redirect('redirecthome')
 
 def createaccountpage(request):
 	error = ""
