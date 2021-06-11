@@ -25,11 +25,14 @@ Resources
 * Find Contact Information for the health department
 * Choose type of doctor for my appointments
 
-## Home-page
-<img src="">
+## Admin-Home-page
+<img src="https://raw.githubusercontent.com/ubuntustan/Huduma-Afya/master/Huduma-Afya/HudumaApp/static/img/admindashboard.png">
 
-## Profile 
-<img src="">
+## Receptionists
+<img src="https://raw.githubusercontent.com/ubuntustan/Huduma-Afya/master/Huduma-Afya/HudumaApp/static/img/reception.png">
+
+## Doctor page
+<img src="https://raw.githubusercontent.com/ubuntustan/Huduma-Afya/master/Huduma-Afya/HudumaApp/static/img/doctor.png">
 
 ## ERD Diagram
 <img src=""> 
@@ -42,7 +45,7 @@ To get the project .......
   
 ##### Cloning the repository:  
  ```bash 
-https://github.com/ubuntustan/Huduma-Afya.gi
+https://github.com/ubuntustan/Huduma-Afya.git
 ```
 ##### Navigate into the folder and install requirements  
  ```bash 
