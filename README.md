@@ -37,7 +37,7 @@ Resources
 ## ERD Diagram
 [Erd](https://lucid.app/lucidchart/111c56d8-7535-4c8e-a6c7-ca7d229f1264/edit?page=0_0#)
 ## Figma design
-
+[Figma Site](https://www.figma.com/file/PCnDcSqAJwl3BfjCpa06T5/Untitled?node-id=0%3A1)
 
 ## Setup and Installation  
 To get the project .......  
